@@ -1,0 +1,115 @@
+# SSD Threat Models
+
+## Software Security Laboratory
+
+This repository contains the threat models developed for the Software Security (SSD) laboratory using **OWASP Threat Dragon**.
+
+The purpose of this repository is to design Data Flow Diagrams (DFDs), identify security threats using the **STRIDE** threat modelling methodology, and document security requirements and mitigations.
+
+---
+
+## Laboratory Information
+
+**Module:** Software Security (SSD)
+
+**Lab:** Lab 2 – Basic Threat Modelling
+
+**Tool:** OWASP Threat Dragon v2.x
+
+**Threat Modelling Methodology:** STRIDE
+
+---
+
+# Threat Model
+
+## Model Name
+
+**Online Student Portal Threat Model**
+
+---
+
+## Scenario
+
+A university is developing an online student portal.
+
+The system provides the following functionality:
+
+- Students can log in and view examination results.
+- Lecturers can upload and modify student marks.
+- Administrators can manage user accounts.
+- Student details and examination results are stored in a database.
+- The portal is accessible through the Internet.
+
+---
+
+# Objectives
+
+This threat model aims to:
+
+- Identify valuable system assets.
+- Identify system entry points.
+- Model the system using a Data Flow Diagram (DFD).
+- Identify trust boundaries.
+- Analyse security threats using the STRIDE model.
+- Recommend appropriate mitigations.
+- Define measurable security requirements.
+
+---
+
+# STRIDE Threat Categories
+
+| Category | Description |
+|-----------|-------------|
+| Spoofing | Pretending to be another user or system |
+| Tampering | Modifying data without authorization |
+| Repudiation | Denying actions without sufficient evidence |
+| Information Disclosure | Exposing confidential information |
+| Denial of Service | Making the system unavailable |
+| Elevation of Privilege | Gaining unauthorized permissions |
+
+---
+
+# Threat Modelling Process
+
+The threat modelling process followed in this repository consists of:
+
+1. Define the system.
+2. Identify assets.
+3. Create the Data Flow Diagram (DFD).
+4. Identify trust boundaries.
+5. Identify STRIDE threats.
+6. Define security requirements.
+7. Recommend mitigations.
+8. Validate the threat model.
+
+---
+
+# Repository Contents
+
+```
+SSD_ThreatModels/
+│
+├── README.md
+├── Online Student Portal Threat Model.json
+└── Screenshots/
+    └── StudentPortalDFD.png
+```
+
+---
+
+# Expected Deliverables
+
+- Threat Dragon model
+- Data Flow Diagram (DFD)
+- STRIDE threat analysis
+- Security requirements
+- Threat mitigations
+- Supporting screenshots
+
+---
+
+# References
+
+- OWASP Threat Dragon
+- OWASP STRIDE Threat Modelling
+- Software Security Lecture Notes
