@@ -1,0 +1,27 @@
+{
+  "version": "2.6.2",
+  "summary": {
+    "title": "New Threat Model",
+    "owner": "Apinaja Elagumeeharan",
+    "description": "This threat model analyses the security risks of a university online student portal. The system allows students to log in and view examination results, lecturers to upload and modify student marks, and administrators to manage user accounts. Student records and examination results are stored in a central database, and the portal is accessible through the Internet.",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "Online Student Portal DFD",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.6.2",
+        "cells": [],
+        "description": "Data Flow Diagram (DFD) for the Online Student Portal showing system components, data flows, trust boundary, and STRIDE threat analysis."
+      }
+    ],
+    "diagramTop": 1,
+    "reviewer": "Lecture ",
+    "threatTop": 0
+  }
+}
